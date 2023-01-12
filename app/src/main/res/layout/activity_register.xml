@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadinaa"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="83dp"
+        app:layout_constraintBottom_toTopOf="@+id/Name_field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ferplast" />
+
+    <EditText
+        android:id="@+id/Name_field"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/background_color"
+        android:ems="10"
+        android:fontFamily="@font/allerta"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Email_field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/Email_field"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/background_color"
+        android:ems="10"
+        android:fontFamily="@font/allerta"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="#020101"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/Password_field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name_field" />
+
+    <EditText
+        android:id="@+id/Password_field"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="214dp"
+        android:background="@drawable/background_color"
+        android:ems="10"
+        android:fontFamily="@font/allerta"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email_field" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="#DD0C1A"
+        android:onClick="RegisterUser"
+        android:text="Register"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password_field" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Diplomski" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#DD0C1A</item>
+        <item name="colorPrimaryVariant">#DD0C1A</item>
+        <item name="colorOnPrimary">#DD0C1A</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#DD0C1A</item>
+        <item name="colorSecondaryVariant">#FDFDFD</item>
+        <item name="colorOnSecondary">#FDFDFD</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomTabStyle" parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+
+
+
+</resources>

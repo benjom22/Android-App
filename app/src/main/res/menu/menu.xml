@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_logut"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        android:iconTint="@color/white"/>
+
+
+    <item
+        android:id="@+id/nav_messaging"
+        android:icon="@drawable/message"
+        android:title="Chat"
+        />
+
+
+
+</menu>

@@ -1,0 +1,182 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 1"
+        android:pathData="m826 444 10 -0 3 1032 -10 0 -3 -1032z" />
+    <path
+        android:name="Shape 1"
+        android:pathData="m836 444 -10 0 3 1032 10 -0 -3 -1032z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 1 copy"
+        android:pathData="m382 444 10 -0 3 1032 -10 0 -3 -1032z" />
+    <path
+        android:name="Shape 1 copy"
+        android:pathData="m392 444 -10 0 3 1032 10 -0 -3 -1032z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 2"
+        android:pathData="m839 1463 0.1 10 -450 3 -0.1 -10 450 -3z" />
+    <path
+        android:name="Shape 2"
+        android:pathData="m839 1463 -450 3 0.1 10 450 -3 -0.1 -10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 13"
+        android:pathData="m201 1220v-10h192v10h-192z" />
+    <path
+        android:name="Shape 13"
+        android:pathData="m201 1210v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 13 copy 4"
+        android:pathData="m192 950v-10h192v10h-192z" />
+    <path
+        android:name="Shape 13 copy 4"
+        android:pathData="m192 940v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 13 copy 3"
+        android:pathData="m195 817v-10h192v10h-192z" />
+    <path
+        android:name="Shape 13 copy 3"
+        android:pathData="m195 807v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 13 copy 2"
+        android:pathData="m198 711v-10h192v10h-192z" />
+    <path
+        android:name="Shape 13 copy 2"
+        android:pathData="m198 701v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 13 copy"
+        android:pathData="m195 542v-10h192v10h-192z" />
+    <path
+        android:name="Shape 13 copy"
+        android:pathData="m195 532v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 14"
+        android:pathData="m237 1413v-10h156v10h-156z" />
+    <path
+        android:name="Shape 14"
+        android:pathData="m237 1403v10h156v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 15"
+        android:pathData="m393 1073v-10h438v10h-438z" />
+    <path
+        android:name="Shape 15"
+        android:pathData="m393 1063v10h438v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 7"
+        android:pathData="m205 1218h-10v-768h10v768z" />
+    <path
+        android:name="Shape 7"
+        android:pathData="m195 450v768h10v-768z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 8"
+        android:pathData="m192 453v-10h198v10h-198z" />
+    <path
+        android:name="Shape 8"
+        android:pathData="m192 443v10h198v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 9"
+        android:pathData="m387 455v-10h447v10h-447z" />
+    <path
+        android:name="Shape 9"
+        android:pathData="m387 445v10h447v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 10"
+        android:pathData="m834 701v-10h198v10h-198z" />
+    <path
+        android:name="Shape 10"
+        android:pathData="m834 691v10h198v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 10 copy"
+        android:pathData="m826 1473v-10h198v10h-198z" />
+    <path
+        android:name="Shape 10 copy"
+        android:pathData="m826 1463v10h198v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 11"
+        android:pathData="m1020 696h10v774h-10v-774z" />
+    <path
+        android:name="Shape 11"
+        android:pathData="m1020 696v774h10v-774z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 12"
+        android:pathData="m826 817v-10h192v10h-192z" />
+    <path
+        android:name="Shape 12"
+        android:pathData="m826 807v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 12 copy 4"
+        android:pathData="m826 1336v-10h192v10h-192z" />
+    <path
+        android:name="Shape 12 copy 4"
+        android:pathData="m826 1326v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 12 copy 3"
+        android:pathData="m840 1108v-10h192v10h-192z" />
+    <path
+        android:name="Shape 12 copy 3"
+        android:pathData="m840 1098v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 12 copy 2"
+        android:pathData="m828 1220v-10h192v10h-192z" />
+    <path
+        android:name="Shape 12 copy 2"
+        android:pathData="m828 1210v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 12 copy"
+        android:pathData="m826 960v-10h192v10h-192z" />
+    <path
+        android:name="Shape 12 copy"
+        android:pathData="m826 950v10h192v-10z"
+        android:fillColor="#000" />
+    <path
+        android:fillColor="#fff"
+        android:name="Shape 6"
+        android:pathData="m248 1413h-10v-198h10v198z" />
+    <path
+        android:name="Shape 6"
+        android:pathData="m238 1215v198h10v-198z"
+        android:fillColor="#000" />
+</vector>
