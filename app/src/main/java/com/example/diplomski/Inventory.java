@@ -21,11 +21,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -87,7 +84,7 @@ public class Inventory extends AppCompatActivity {
         Adapter adapter = new Adapter(items);
         recyclerView.setAdapter(adapter);*/
 
-        list = new ArrayList<>();
+        /*list = new ArrayList<>();
         myAdapter = new Adapter2(this,list);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -107,7 +104,7 @@ public class Inventory extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
-        });
+        });*/
 
 
 
@@ -200,6 +197,6 @@ public class Inventory extends AppCompatActivity {
             TextView kolicinaTextView = mView.findViewById(R.id.kolicina_prikaz);
             kolicinaTextView.setText(kolicina);
         }
-
     }
+
 }
